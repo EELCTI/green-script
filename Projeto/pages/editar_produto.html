@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<<<<<<< HEAD
-
-<head>
+<<<<<<< HEAD <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Produtos</title>
@@ -13,97 +11,103 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-</head>
+    </head>
 
-<body>
-<header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand">Projeto GS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/cadastrar_produto.html">Cadastrar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/editar_produto.html">Editar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/admin.html">Admin</a>
-                        </li>
-                    </ul>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand">Projeto GS</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/cadastrar_produto.html">Cadastrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/editar_produto.html">Editar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/admin.html">Admin</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <form>
-        <fieldset>
-            <legend>Editar Cabos e Periféricos</legend>
+            </nav>
+        </header>
+        <form>
+            <fieldset>
+                <legend>Editar Cabos e Periféricos</legend>
 
 
 
-            <div class="mb-3">
-                <label for="ct" class="form-label">Objeto</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option value="Teclado">Teclado</option>
-                    <option value="Mouse">Mouse</option>
-                    <option value="Cabo_forca">Cabo de Força</option>
-                    <option value="Cabo_video">Cabo de Vídeo</option>
-                </select>
-            </div>
+                <div class="mb-3">
+                    <label for="ct" class="form-label">Objeto</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="Teclado">Teclado</option>
+                        <option value="Mouse">Mouse</option>
+                        <option value="Cabo_forca">Cabo de Força</option>
+                        <option value="Cabo_video">Cabo de Vídeo</option>
+                    </select>
+                </div>
 
-            <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Marca</label>
-                <select id="disabledSelect" class="form-select">
-                    <option value="Positivo">Positivo</option>
-                    <option value="Daten">Daten</option>
-                    <option value="NewLink">New Link</option>
-                    <option value="MTek">MTek</option>
-                </select>
-            </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Marca</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option value="Positivo">Positivo</option>
+                        <option value="Daten">Daten</option>
+                        <option value="NewLink">New Link</option>
+                        <option value="MTek">MTek</option>
+                    </select>
+                </div>
 
-            <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Entrada</label>
-                <select id="disabledSelect" class="form-select">
-                    <option value="USB">USB</option>
-                    <option value="VGA">VGA</option>
-                    <option value="Simples">Simples</option>
-                    <option value="Duplo">Duplo</option>
-                </select>
-            </div>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Entrada</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option value="USB">USB</option>
+                        <option value="VGA">VGA</option>
+                        <option value="Simples">Simples</option>
+                        <option value="Duplo">Duplo</option>
+                    </select>
+                </div>
 
-            <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Conexão</label>
-                <select id="disabledSelect" class="form-select">
-                    <option value="ABNT_2">ABNT 2</option>
-                    <option value="ABNT">ABNT</option>
-                    <option value="Laser">Laser</option>
-                    
-                </select>
-            </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </fieldset>
-    </form>
+                <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Conexão</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option value="ABNT_2">ABNT 2</option>
+                        <option value="ABNT">ABNT</option>
+                        <option value="Laser">Laser</option>
 
-</body>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
 
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <title>Green Script - Editar Produto</title>
-</head>
-<body>
-    
-</body>
->>>>>>> 28766b936de2019fb080bd9a9e0ac86bfb139b5b
+    </body>
+
+    =======
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <title>Green Script - Editar Produto</title>
+    </head>
+
+    <body>
+
+    </body>
+    >>>>>>> 28766b936de2019fb080bd9a9e0ac86bfb139b5b
+
 </html>
