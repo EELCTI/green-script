@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Editar Cabos e Periféricos</legend>
+
+
+
+            <div class="mb-3">
+                <label for="ct" class="form-label">Objeto</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="Teclado">Teclado</option>
+                    <option value="Mouse">Mouse</option>
+                    <option value="Cabo_forca">Cabo de Força</option>
+                    <option value="Cabo_video">Cabo de Vídeo</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Marca</label>
+                <select id="disabledSelect" class="form-select">
+                    <option value="Positivo">Positivo</option>
+                    <option value="Daten">Daten</option>
+                    <option value="NewLink">New Link</option>
+                    <option value="MTek">MTek</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Entrada</label>
+                <select id="disabledSelect" class="form-select">
+                    <option value="USB">USB</option>
+                    <option value="VGA">VGA</option>
+                    <option value="Simples">Simples</option>
+                    <option value="Duplo">Duplo</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Conexão</label>
+                <select id="disabledSelect" class="form-select">
+                    <option value="ABNT_2">ABNT 2</option>
+                    <option value="ABNT">ABNT</option>
+                    <option value="Laser">Laser</option>
+                    
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
